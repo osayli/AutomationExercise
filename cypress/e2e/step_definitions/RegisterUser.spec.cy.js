@@ -54,6 +54,26 @@ Given("user fills details:Firstname,Lastname,Company,Address,Address2,Country,St
        });
 
 Given("user clicks Create Account button", function () {
-            return "pending";
+            
        });
+
+Given("verify that Account Created! is visible", function () {
+           
+       });
+
+Given("user clicks continue button", function () {
+      
+       });
+
+Given("verify that logged in as username is visible", function () {
+      
+       });
+
+Given("user clicks delete account button", function () {
+       
+       });
+
+Given("verify that account deleted! is visible and click continue button", function () {
+       
+        });
         
