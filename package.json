@@ -1,0 +1,26 @@
+{
+  "name": "cypress-cucunber-boilerplate",
+  "version": "1.0.0",
+  "description": "This project is meant to be a kind of templete to start working with Cucumber and Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:runner": "cypress open",
+    "cypress:execution": "cypress run",
+    "cypress:execution-tags": "cypress run --env tags=@test",
+    "test": "npx cypress run --e2e --headless"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "cucumber",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "cypress": "^12.2.0",
+    "esbuild": "^0.16.10"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.0.0"
+  }
+}
